@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Menu = () => {
   return (
-    <NavBar>
+    <nav>
       <MenuLink href="#">доставка і розмитнення</MenuLink>
       <MenuLink href="#">аукціон</MenuLink>
       <MenuLink href="#">автомобілі в Україні</MenuLink>
@@ -12,21 +12,18 @@ const Menu = () => {
       <MenuLink href="#">відгуки</MenuLink>
       <MenuLink href="#">блог</MenuLink>
       <MenuLink href="#">контакти</MenuLink>
-    </NavBar>
+    </nav>
   );
 };
 
 export default Menu;
-const NavBar = styled.nav`
-  margin-left: 2.5rem;
-`;
 
 const MenuLink = styled.a`
   text-transform: uppercase;
   text-decoration: none;
   text-align: left;
   font: SemiBold 16px/25px Open Sans;
-  margin: 0 1rem;
+  margin-right: 1rem;
   color: gray;
   font-size: 0.7rem;
   font-weight: 500;
