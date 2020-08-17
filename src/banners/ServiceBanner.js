@@ -43,4 +43,5 @@ const LogosSection = styled.section`
 const BannerLogo = styled.img`
   margin-right: 1.5rem;
   height: 7rem;
+  cursor: pointer;
 `;

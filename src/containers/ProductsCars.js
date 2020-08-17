@@ -33,4 +33,5 @@ const ShowAllButton = styled.button`
   padding: 0.8rem 2rem;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 `;

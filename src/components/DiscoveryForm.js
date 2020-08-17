@@ -85,6 +85,7 @@ const FormButton = styled.button`
   border: none;
   border-radius: 5px;
   margin: 1rem 0;
+  cursor: pointer;
 `;
 const CapitalLetter = styled.span`
   text-transform: uppercase;
