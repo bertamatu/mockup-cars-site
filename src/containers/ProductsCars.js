@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import CarCard from "../components/CarCard";
 
 const ProductsCars = () => {
   return (
     <CarsContainer id="auction">
       <TopOffersText>Топ пропозицій</TopOffersText>
+      <CarCard />
       <ShowAllButton>Показать все</ShowAllButton>
     </CarsContainer>
   );
@@ -23,7 +25,7 @@ const TopOffersText = styled.p`
   font-size: 1.2rem;
   font-weight: 900;
   text-align: left;
-  padding: 4rem;
+  padding: 0 5rem;
 `;
 const ShowAllButton = styled.button`
   background: #f55448 0% 0% no-repeat padding-box;

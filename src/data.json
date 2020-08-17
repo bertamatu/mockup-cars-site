@@ -1,0 +1,167 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "model": "Nissan Pathfinder",
+      "year": 2015,
+      "gearbox": "Автомат",
+      "fuel": "Бензин",
+      "driven-wheels": "Передний",
+      "engine-capacity": 2.0,
+      "kilometrage": 51130,
+      "price": 13700,
+      "location": "Mn - Minneapolis",
+      "trade-date": "22.02.2020 18:00 UTC",
+      "image": "assets/images/cars/id1.png"
+    },
+    {
+      "id": 2,
+      "model": "Nissan Pathfinder",
+      "year": 2015,
+      "gearbox": "Автомат",
+      "fuel": "Бензин",
+      "driven-wheels": "Передний",
+      "engine-capacity": 2.0,
+      "kilometrage": 51130,
+      "price": 13700,
+      "location": "Mn - Minneapolis",
+      "trade-date": "22.02.2020 18:00 UTC",
+      "image": "./assets/images/cars/id2.png"
+    },
+    {
+      "id": 3,
+      "model": "Nissan Pathfinder",
+      "year": 2015,
+      "gearbox": "Автомат",
+      "fuel": "Бензин",
+      "driven-wheels": "Передний",
+      "engine-capacity": 2.0,
+      "kilometrage": 51130,
+      "price": 13700,
+      "location": "Mn - Minneapolis",
+      "trade-date": "22.02.2020 18:00 UTC",
+      "image": "./assets/images/cars/id3.png"
+    },
+    {
+      "id": 4,
+      "model": "Nissan Pathfinder",
+      "year": 2015,
+      "gearbox": "Автомат",
+      "fuel": "Бензин",
+      "driven-wheels": "Передний",
+      "engine-capacity": 2.0,
+      "kilometrage": 51130,
+      "price": 13700,
+      "location": "Mn - Minneapolis",
+      "trade-date": "22.02.2020 18:00 UTC",
+      "image": "./assets/images/cars/id4.png"
+    },
+    {
+      "id": 5,
+      "model": "Nissan Pathfinder",
+      "year": 2015,
+      "gearbox": "Автомат",
+      "fuel": "Бензин",
+      "driven-wheels": "Передний",
+      "engine-capacity": 2.0,
+      "kilometrage": 51130,
+      "price": 13700,
+      "location": "Mn - Minneapolis",
+      "trade-date": "22.02.2020 18:00 UTC",
+      "image": "./assets/images/cars/id5.png"
+    },
+    {
+      "id": 6,
+      "model": "Nissan Pathfinder",
+      "year": 2015,
+      "gearbox": "Автомат",
+      "fuel": "Бензин",
+      "driven-wheels": "Передний",
+      "engine-capacity": 2.0,
+      "kilometrage": 51130,
+      "price": 13700,
+      "location": "Mn - Minneapolis",
+      "trade-date": "22.02.2020 18:00 UTC",
+      "image": "./assets/images/cars/id1.png"
+    },
+    {
+      "id": 7,
+      "model": "Nissan Pathfinder",
+      "year": 2015,
+      "gearbox": "Автомат",
+      "fuel": "Бензин",
+      "driven-wheels": "Передний",
+      "engine-capacity": 2.0,
+      "kilometrage": 51130,
+      "price": 13700,
+      "location": "Mn - Minneapolis",
+      "trade-date": "22.02.2020 18:00 UTC",
+      "image": "./assets/images/cars/id1.png"
+    },
+    {
+      "id": 8,
+      "model": "Nissan Pathfinder",
+      "year": 2015,
+      "gearbox": "Автомат",
+      "fuel": "Бензин",
+      "driven-wheels": "Передний",
+      "engine-capacity": 2.0,
+      "kilometrage": 51130,
+      "price": 13700,
+      "location": "Mn - Minneapolis",
+      "trade-date": "22.02.2020 18:00 UTC",
+      "image": "./assets/images/cars/id2.png"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Вибір з аукціонів",
+      "text": "Завдякі великій кількості портів, через які ми доставляємо авто, наші менеджери мають набагато більше пропозицій. Ми не обмежуемся певними регіонами пошуку. Також ви маєте можливість вибрати авто самостійно, в меню \"Аукціон\"",
+      "icon": "./assets/svg/ServicesIcons/Group8.svg"
+    },
+    {
+      "id": 2,
+      "title": "Підбір авто та його перевірка",
+      "text": "Наші спеціалісти професіонали з досвідом більше 600 проданих авто. Вони здійснюють ретельний пошук найкращих пропозицій по всіх аукціонах з якими ми співпраціємо. Далі – повна перевірка історії автомобіля.",
+      "icon": "./assets/svg/ServicesIcons/Group12.svg"
+    },
+    {
+      "id": 3,
+      "title": "Швидка доставка",
+      "text": "Завдяки розвиненій логістиці корпорації, ми пропонуємо короткі терміни доставки. Від вибору шляху в найближчий порт, до мінімального часу очікування завантаження на судно.",
+      "icon": "./assets/svg/ServicesIcons/Group8.svg"
+    },
+    {
+      "id": 4,
+      "title": "Максимум безпеки",
+      "text": "Авто під захистом з моменту придбання на аукціоні до вивантаження в порту і передачі його власнику. Ми пропонуємо повну страховку. Від мінімальних пошкоджень в дорозі до повної втрати вантажу.",
+      "icon": "./assets/svg/ServicesIcons/Group8.svg"
+    },
+
+    {
+      "id": 5,
+      "title": "Оформлення документів",
+      "text": "Наші фахівці занимаються підготовкою всіх необхідних документів. Від проведення торгів, доставки в порт і транспортування до реєстрації авто в Україні.",
+      "icon": "./assets/svg/ServicesIcons/Group12.svg"
+    },
+    {
+      "id": 6,
+      "title": "Вигідна вартість послуг",
+      "text": "Ми транспортна корпорація з більш ніж 25 річним досвідом міжнародних перевезень. У нас більше портів, через які ми доставляємо авто і за рахунок цього шлях доставки значно дешевше. Як по території США так і транспортування в Україну.",
+      "icon": "./assets/svg/ServicesIcons/Group8.svg"
+    },
+    {
+      "id": 7,
+      "title": "Kредитование",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "icon": "./assets/svg/ServicesIcons/Group12.svg"
+    },
+    {
+      "id": 8,
+      "title": "Дополнительные услуги",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "icon": "./assets/svg/ServicesIcons/Group12.svg"
+    }
+  ]
+}

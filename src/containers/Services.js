@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import BackgroundImage from "../assets/images/backgrounds/ServicesSectionBackground.png";
 import ServicesBanner from "../banners/ServiceBanner";
+import ServiceCard from "../components/ServiceCard";
 
 const Services = () => {
   return (
@@ -11,6 +12,7 @@ const Services = () => {
         <h2>Вибір, безпека, вигода, швидкість </h2>
         <h5>Наші послуги</h5>
       </ServicesTopic>
+      <ServiceCard />
     </ServicesContainer>
   );
 };
@@ -19,6 +21,7 @@ export default Services;
 
 const ServicesContainer = styled.section`
   background-image: url(${BackgroundImage});
+  background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
 `;
