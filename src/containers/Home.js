@@ -1,8 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import HomeBanner from "../banners/HomeBanner";
 
 const Home = () => {
-  return <HomeContainer></HomeContainer>;
+  return (
+    <HomeContainer>
+      <HomeBanner />
+    </HomeContainer>
+  );
 };
 
 export default Home;
