@@ -24,7 +24,7 @@ const BannerContainer = styled.footer`
   bottom: 0;
   left: 0;
   width: 100vw;
-  height: 13rem;
+  height: 20vh;
   display: flex;
   align-items: center;
 `;
@@ -35,16 +35,16 @@ const Content = styled.section`
   align-items: center;
 `;
 const BannerImage = styled.img`
-  height: 25vh;
+  height: 16vh;
 `;
 
 const BannerText = styled.p`
-  width: 30vw;
+  width: 25vw;
   text-align: left;
-  font: Bold 34px/40px Lato;
+  font: Bold 1.6rem Lato;
   letter-spacing: 0px;
   color: #ffffff;
-  margin-left: -15rem;
+  margin-left: -20rem;
 `;
 
 const BannerButton = styled.button`

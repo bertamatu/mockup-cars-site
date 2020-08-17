@@ -17,6 +17,9 @@ const DiscoveryForm = () => {
         <option value="b">B</option>
         <option value="c">C</option>
       </SelectOption>
+      <h3>$6 000 - $10 000</h3>
+      <div></div>
+
       <FormButton>
         <CapitalLetter>з</CapitalLetter>амовити підбір
       </FormButton>
