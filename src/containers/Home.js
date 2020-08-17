@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import NavBar from "../navBar/NavBar";
+import NavBar from "../navBar/NavBar.js";
 import HomeContent from "../components/HomeContent";
 import HomeBanner from "../banners/HomeBanner";
 

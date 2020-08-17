@@ -1,19 +1,23 @@
 import React from "react";
 import BckgImage from "../assets/images/backgrounds/HomeSectionBackground.png";
 import styled from "styled-components";
+import DiscoveryForm from "../components/DiscoveryForm";
 
 const HomeContent = () => {
   return (
     <HomeContentContainer>
-      <ParagraphHeader>
-        Вигідний шлях покупки якісного авто з США
-      </ParagraphHeader>
-      <TextLine>Міжнародна компанія відтепер в Україні</TextLine>
-      <TextParagraph>
-        Найширший вибір автомобілів в наявності, а також авто у дорозі і
-        пропозицій на аукціонах. Страхування перевезень. Кредитування навіть під
-        замовлення.
-      </TextParagraph>
+      <TextSection>
+        <ParagraphHeader>
+          Вигідний шлях покупки якісного авто з США
+        </ParagraphHeader>
+        <TextLine>Міжнародна компанія відтепер в Україні</TextLine>
+        <TextParagraph>
+          Найширший вибір автомобілів в наявності, а також авто у дорозі і
+          пропозицій на аукціонах. Страхування перевезень. Кредитування навіть
+          під замовлення.
+        </TextParagraph>
+      </TextSection>
+      <DiscoveryForm />
     </HomeContentContainer>
   );
 };
@@ -25,10 +29,12 @@ const HomeContentContainer = styled.section`
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: center;
-  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 5rem;
 `;
-
+const TextSection = styled.section``;
 const ParagraphHeader = styled.p`
   text-align: left;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
