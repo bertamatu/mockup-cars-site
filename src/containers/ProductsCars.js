@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const ProductsCars = () => {
   return (
-    <CarsContainer>
+    <CarsContainer id="auction">
       <TopOffersText>Топ пропозицій</TopOffersText>
       <ShowAllButton>Показать все</ShowAllButton>
     </CarsContainer>

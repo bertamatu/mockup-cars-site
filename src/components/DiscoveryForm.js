@@ -41,8 +41,8 @@ const FormContainer = styled.form`
   justify-content: center;
   background: white;
   width: 15vw;
-  margin-top: -2rem;
-  padding: 2rem;
+  margin-top: -3rem;
+  padding: 1rem 2rem;
   color: #2d3178;
   -webkit-box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.38);
   -moz-box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.38);

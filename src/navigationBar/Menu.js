@@ -5,10 +5,10 @@ const Menu = () => {
   return (
     <nav>
       <MenuLink href="#">доставка і розмитнення</MenuLink>
-      <MenuLink href="#">аукціон</MenuLink>
-      <MenuLink href="#">автомобілі в Україні</MenuLink>
+      <MenuLink href="#auction">аукціон</MenuLink>
+      <MenuLink href="#auction">автомобілі в Україні</MenuLink>
       <MenuLink href="#">кредит</MenuLink>
-      <MenuLink href="#">про компанію</MenuLink>
+      <MenuLink href="#about_company">про компанію</MenuLink>
       <MenuLink href="#">відгуки</MenuLink>
       <MenuLink href="#">блог</MenuLink>
       <MenuLink href="#">контакти</MenuLink>
@@ -29,7 +29,7 @@ const MenuLink = styled.a`
   font-weight: 500;
   letter-spacing: 0;
   &:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 2.5px solid red;
     padding-bottom: 0.3rem;
   }
 `;

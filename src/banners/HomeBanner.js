@@ -52,7 +52,7 @@ const BannerButton = styled.button`
   font: SemiBold 16px/36px Open Sans;
   letter-spacing: 0px;
   color: #2e3179;
-  padding: 1rem 2rem;
+  padding: 0.6rem 2rem;
   border-radius: 5px;
   border: none;
   cursor: pointer;

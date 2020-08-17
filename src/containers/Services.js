@@ -5,7 +5,7 @@ import ServicesBanner from "../banners/ServiceBanner";
 
 const Services = () => {
   return (
-    <ServicesContainer>
+    <ServicesContainer id="about_company">
       <ServicesBanner />
       <ServicesTopic>
         <h2>Вибір, безпека, вигода, швидкість </h2>

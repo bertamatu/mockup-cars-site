@@ -33,6 +33,7 @@ const HomeContentContainer = styled.section`
   flex-direction: row;
   justify-content: space-between;
   padding: 5rem;
+  margin-top: 0.3rem;
 `;
 const TextSection = styled.section``;
 const ParagraphHeader = styled.p`
@@ -40,19 +41,17 @@ const ParagraphHeader = styled.p`
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 900;
   color: #2d3178;
-  width: 15vw;
+  width: 18vw;
   padding: 0;
 `;
-
 const TextLine = styled.p`
   color: #2d3178;
   font-size: 0.7rem;
   margin-top: -1rem;
   font-weight: 500;
 `;
-
 const TextParagraph = styled.p`
   font-size: 0.7rem;
   font-weight: 600;
