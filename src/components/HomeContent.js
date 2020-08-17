@@ -22,8 +22,9 @@ export default HomeContent;
 
 const HomeContentContainer = styled.section`
   background-image: url(${BckgImage});
-  width: 100vw;
-  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: center;
   margin-top: 0.4rem;
   padding: 5rem;
 `;

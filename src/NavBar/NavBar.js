@@ -22,7 +22,7 @@ const NavBar = () => {
 export default NavBar;
 
 const NavigationBar = styled.header`
-  margin: 0 5rem;
+  padding: 0 5rem;
 `;
 
 const LogoIconsContactContainer = styled.section`
