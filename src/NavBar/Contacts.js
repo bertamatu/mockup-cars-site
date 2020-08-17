@@ -9,10 +9,10 @@ const Contacts = () => {
     <ContactsContainer>
       <City>Київ</City>
       <IconTriangle src={TriangleIcon} alt="contacts" />
-      <img src={PhoneIcon} alt="phone-contacts" />
+      <IconPhone src={PhoneIcon} alt="phone-contacts" />
       <PhoneNumber href="tel:380-95-829-5001">+ 380 95 829 5001</PhoneNumber>
       <VerticalLine></VerticalLine>
-      <img src={PhoneArrowIcon} alt="phone-contacts" />
+      <IconPhoneArrow src={PhoneArrowIcon} alt="phone-contacts" />
       <ContactText>зворотний дзвінок</ContactText>
     </ContactsContainer>
   );
@@ -37,12 +37,18 @@ const City = styled.p`
 const IconTriangle = styled.img`
   padding: 0 0.5rem 0 0.2rem;
 `;
+const IconPhone = styled.img`
+  height: 0.85rem;
+`;
 const PhoneNumber = styled.a`
   text-align: left;
-  font-family: Open Sans;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   color: #2d3178;
   text-decoration: none;
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
 `;
 
 const VerticalLine = styled.div`
@@ -50,6 +56,10 @@ const VerticalLine = styled.div`
   width: 1.5px;
   height: 2rem;
   margin: 0 1rem;
+`;
+
+const IconPhoneArrow = styled.img`
+  height: 1.3rem;
 `;
 
 const ContactText = styled.p`

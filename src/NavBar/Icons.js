@@ -29,6 +29,7 @@ export default Icons;
 const IconsMenu = styled.section`
   display: flex;
   flex-direction: row;
+  margin-left: -12rem;
 `;
 
 const Parallelogram = styled.section`
