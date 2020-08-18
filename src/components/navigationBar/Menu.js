@@ -22,7 +22,6 @@ const MenuLink = styled.a`
   text-transform: uppercase;
   text-decoration: none;
   text-align: left;
-  /* font: SemiBold 16px/25px Open Sans; */
   margin-right: 1rem;
   color: gray;
   font-size: 0.7rem;

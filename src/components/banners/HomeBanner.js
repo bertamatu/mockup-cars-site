@@ -37,7 +37,6 @@ const Content = styled.section`
 const BannerImage = styled.img`
   height: 16vh;
 `;
-
 const BannerText = styled.p`
   width: 25vw;
   text-align: left;
@@ -46,7 +45,6 @@ const BannerText = styled.p`
   color: #ffffff;
   margin-left: -20rem;
 `;
-
 const BannerButton = styled.button`
   text-align: center;
   font: SemiBold 16px/36px Open Sans;

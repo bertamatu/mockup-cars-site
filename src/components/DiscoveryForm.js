@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// import ReactSlider from "react-slider";
 
 const DiscoveryForm = () => {
   return (
@@ -101,7 +100,6 @@ const SliderText = styled.section`
   font-size: 0.7rem;
   font-weight: 600;
 `;
-
 const SliderTitle = styled.p`
   color: #2d3178;
   font-weight: 800;

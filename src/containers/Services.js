@@ -26,7 +26,6 @@ const ServicesContainer = styled.section`
   background-position: center;
   min-height: 100vh;
 `;
-
 const ServicesTopic = styled.p`
   color: white;
   padding: 5rem;

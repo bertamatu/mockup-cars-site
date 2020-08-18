@@ -24,7 +24,6 @@ export default NavBar;
 const NavigationBar = styled.header`
   padding: 0 5rem;
 `;
-
 const LogoIconsContactContainer = styled.section`
   display: flex;
   flex-direction: row;

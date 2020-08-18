@@ -29,14 +29,12 @@ const ServiceBannerContainer = styled.section`
   align-items: center;
   width: 100vw;
 `;
-
 const ServiceBannertext = styled.p`
   font-weight: 800;
   font-size: 1.5rem;
   width: 25vw;
   padding: 3rem 5rem;
 `;
-
 const LogosSection = styled.section`
   padding: 3rem 5rem;
 `;

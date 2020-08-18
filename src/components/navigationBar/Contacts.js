@@ -26,14 +26,12 @@ const ContactsContainer = styled.section`
   align-items: center;
   padding-top: 0.5rem;
 `;
-
 const City = styled.p`
   text-align: right;
   font: Regular 16px/20px Open Sans;
   color: #000000;
   font-size: 0.7rem;
 `;
-
 const IconTriangle = styled.img`
   padding: 0 0.5rem 0 0.2rem;
 `;
@@ -50,18 +48,15 @@ const PhoneNumber = styled.a`
   font-size: 0.9rem;
   margin-left: 0.2rem;
 `;
-
 const VerticalLine = styled.div`
   background: lightgray 0% 0% no-repeat padding-box;
   width: 1.5px;
   height: 2rem;
   margin: 0 1rem;
 `;
-
 const IconPhoneArrow = styled.img`
   height: 1.3rem;
 `;
-
 const ContactText = styled.p`
   text-align: left;
   font: Regular 16px/25px Open Sans;

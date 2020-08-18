@@ -26,12 +26,12 @@ const Icons = () => {
 };
 
 export default Icons;
+
 const IconsMenu = styled.section`
   display: flex;
   flex-direction: row;
   margin-left: -12rem;
 `;
-
 const Parallelogram = styled.section`
   width: 2rem;
   height: 2.2rem;
@@ -42,7 +42,6 @@ const Parallelogram = styled.section`
   align-items: center;
   justify-content: center;
 `;
-
 const SocialIcon = styled.img`
   transform: skew(30deg);
   text-align: center;
