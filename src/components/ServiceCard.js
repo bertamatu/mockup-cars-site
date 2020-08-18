@@ -38,7 +38,7 @@ const ServiceCards = styled.section`
   width: 100%;
   flex-basis: 20%;
   background: white;
-  padding: 2rem;
+  padding: 2rem 1rem;
   text-align: center;
   font-size: 0.8rem;
   margin-bottom: 3rem;
