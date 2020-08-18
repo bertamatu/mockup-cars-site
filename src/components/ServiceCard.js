@@ -22,22 +22,17 @@ const ServiceCard = () => {
 export default ServiceCard;
 
 const ServicesContainer = styled.section`
+  width: 90vw;
   display: flex;
-  flex-flow: column wrap;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-between;
   padding: 0 5rem;
 `;
-
 const ServiceCards = styled.section`
-  flex-grow: 1;
-  width: 15;
+  flex-basis: 20%;
   background: white;
-  /* width: 15vw; */
-  padding: 1rem;
+  padding: 2rem;
   text-align: center;
   font-size: 0.8rem;
-  flex-wrap: wrap;
-  flex: 4 1 20vw;
+  margin-bottom: 3rem;
 `;

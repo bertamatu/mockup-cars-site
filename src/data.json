@@ -16,7 +16,7 @@
     },
     {
       "id": 2,
-      "model": "Nissan Pathfinder",
+      "model": "Volkswagen Tiguan",
       "year": 2012,
       "gearbox": "Автомат",
       "fuel": "Бензин",
@@ -30,7 +30,7 @@
     },
     {
       "id": 3,
-      "model": "Nissan Pathfinder",
+      "model": "Audi sq5 premium plus",
       "year": 2018,
       "gearbox": "Автомат",
       "fuel": "Бензин",
@@ -44,7 +44,7 @@
     },
     {
       "id": 4,
-      "model": "Nissan Pathfinder",
+      "model": "BMW 528",
       "year": 2013,
       "gearbox": "Автомат",
       "fuel": "Бензин",
@@ -72,7 +72,7 @@
     },
     {
       "id": 6,
-      "model": "Nissan Pathfinder",
+      "model": "Volkswagen Tiguan",
       "year": 2012,
       "gearbox": "Автомат",
       "fuel": "Бензин",
@@ -86,7 +86,7 @@
     },
     {
       "id": 7,
-      "model": "Nissan Pathfinder",
+      "model": "Audi sq5 premium plus",
       "year": 2018,
       "gearbox": "Автомат",
       "fuel": "Бензин",
@@ -100,7 +100,7 @@
     },
     {
       "id": 8,
-      "model": "Nissan Pathfinder",
+      "model": "BMW 528",
       "year": 2013,
       "gearbox": "Автомат",
       "fuel": "Бензин",

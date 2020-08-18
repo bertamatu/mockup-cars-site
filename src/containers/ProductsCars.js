@@ -19,7 +19,6 @@ const CarsContainer = styled.section`
   background: #f5f5f5 0% 0% no-repeat padding-box;
   text-align: center;
 `;
-
 const TopOffersText = styled.p`
   margin: 0;
   font-size: 1.2rem;
@@ -34,4 +33,5 @@ const ShowAllButton = styled.button`
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  margin-bottom: 5vh;
 `;

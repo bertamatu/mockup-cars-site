@@ -5,13 +5,16 @@ import data from "../data.json";
 const CarCard = () => {
   const cars = data.cars;
   return (
-    <CarsCardsConatiner>
+    <CarsCardsContainer>
       {cars.map((car) => {
-        console.log("IMAGECAR", car.image);
         return (
           <CarsCard>
             <img src={car.image} alt="car" />
-            <h3 style={{ padding: "1rem", margin: 0 }}>{car.model}</h3>
+            <h3
+              style={{ padding: "1.5rem 1rem", margin: 0, textAlign: "left" }}
+            >
+              {car.model}
+            </h3>
             <PriceYearSection>
               <CarPrice>
                 {car.price.toLocaleString("en-US", {
@@ -52,35 +55,34 @@ const CarCard = () => {
                 </section>
               </SectionInfo2>
             </section>
-            <CarButton>подробнee</CarButton>
+            <CarButton>
+              <CapitalLetter>п</CapitalLetter>одробнee
+            </CarButton>
           </CarsCard>
         );
       })}
-    </CarsCardsConatiner>
+    </CarsCardsContainer>
   );
 };
 
 export default CarCard;
 
-const CarsCardsConatiner = styled.section`
+const CarsCardsContainer = styled.section`
+  width: 90vw;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  padding: 0 5rem;
+  justify-content: space-between;
+  padding: 2rem 5rem;
 `;
 const CarsCard = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-basis: 23%;
   background: white;
   text-align: left;
-  flex-grow: 1;
-  width: 20vw;
+  margin-bottom: 3rem;
+  text-align: center;
 `;
 const PriceYearSection = styled.section`
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
@@ -105,11 +107,13 @@ const SectionInfo1 = styled.section`
   font-weight: 600;
   font-size: 0.8rem;
   line-height: 1.5;
+  text-align: left;
 `;
 const SectionInfo2 = styled.section`
   font-weight: 600;
   font-size: 0.8rem;
   line-height: 1.9;
+  text-align: left;
 `;
 const InfoLabel = styled.p`
   color: #8f8f8f;
@@ -123,4 +127,13 @@ const InfoValue = styled.p`
 `;
 const CarButton = styled.button`
   cursor: pointer;
+  border: 1px solid #2d3178;
+  border-radius: 5px;
+  padding: 0.7rem 2rem;
+  background: transparent;
+  color: #2d3178;
+  margin-bottom: 1.5rem;
+`;
+const CapitalLetter = styled.span`
+  text-transform: uppercase;
 `;
