@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import SelectMenuIcon from "../assets/svg/selectMenuIcon/triangleBlue.svg";
 
 const DiscoveryForm = () => {
   return (
@@ -71,6 +72,9 @@ const SelectOption = styled.select`
   padding: 0.5rem;
   color: #8f8f8f;
   font-size: 0.8rem;
+  appearance: none;
+  background: url(${SelectMenuIcon}) no-repeat;
+  background-position: right 0.5rem top 50%;
 `;
 const PriceRange = styled.p`
   font-size: 1rem;
