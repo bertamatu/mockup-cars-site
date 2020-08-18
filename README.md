@@ -1,3 +1,9 @@
+<h2>Run the app:</h2><br/>
+Clone the app: <h4><code>$ git clone https://github.com/bertamatu/currency-app.git</code></h4> 
+To install all dependencies run: <h4><code>npm install</code></h4> (node.js should be already installed on your machine)<br/>
+To start the apprun: <h4><code>npm start</code></h4> <br/><br/>
+<hr/>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
