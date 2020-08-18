@@ -43,7 +43,7 @@ const BannerText = styled.p`
   font: Bold 1.6rem Lato;
   letter-spacing: 0px;
   color: #ffffff;
-  margin-left: -20rem;
+  margin-left: -20vw;
 `;
 const BannerButton = styled.button`
   text-align: center;
