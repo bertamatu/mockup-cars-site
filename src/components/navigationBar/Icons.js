@@ -10,16 +10,40 @@ const Icons = () => {
   return (
     <IconsMenu>
       <Parallelogram>
-        <SocialIcon src={FacebookIcon} alt="facebook" />
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SocialIcon src={FacebookIcon} alt="facebook" />
+        </a>
       </Parallelogram>
       <Parallelogram>
-        <SocialIcon src={InstagramIcon} alt="instagram" />
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SocialIcon src={InstagramIcon} alt="instagram" />
+        </a>
       </Parallelogram>
       <Parallelogram>
-        <SocialIcon src={TelegramIcon} alt="telegram" />
+        <a
+          href="https://telegram.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SocialIcon src={TelegramIcon} alt="telegram" />
+        </a>
       </Parallelogram>
       <Parallelogram>
-        <SocialIcon src={YoutubeIcon} alt="youtube" />
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SocialIcon src={YoutubeIcon} alt="youtube" />
+        </a>
       </Parallelogram>
     </IconsMenu>
   );
