@@ -1,8 +1,8 @@
 <img src="https://iili.io/dNmA5g.png" alt="image" height="500"/>
 <h2>Run the web app:</h2><br/>
-Clone the app: <h4><code>$ git clone https://github.com/bertamatu/currency-app.git</code></h4> 
+Clone the app: <h4><code>$ git clone https://github.com/bertamatu/mockup-cars-site.git</code></h4> 
 To install all dependencies run (node.js should be already installed on your machine): <h4><code>npm install</code></h4> <br/>
-To start the apprun: <h4><code>npm start</code></h4> <br/><br/>
+To start the app run: <h4><code>npm start</code></h4> <br/><br/>
 <hr/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
