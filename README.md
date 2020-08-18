@@ -1,6 +1,7 @@
-<h2>Run the app:</h2><br/>
+<img src="https://iili.io/dNmA5g.png" alt="image" height="500"/>
+<h2>Run the web app:</h2><br/>
 Clone the app: <h4><code>$ git clone https://github.com/bertamatu/currency-app.git</code></h4> 
-To install all dependencies run: <h4><code>npm install</code></h4> (node.js should be already installed on your machine)<br/>
+To install all dependencies run (node.js should be already installed on your machine): <h4><code>npm install</code></h4> <br/>
 To start the apprun: <h4><code>npm start</code></h4> <br/><br/>
 <hr/>
 
