@@ -9,7 +9,7 @@ const CarCard = () => {
       {cars.map((car) => {
         return (
           <CarsCard>
-            <img src={car.image} alt="car" />
+            <img style={{ width: "100%" }} src={car.image} alt="car" />
             <h3
               style={{ padding: "1.5rem 1rem", margin: 0, textAlign: "left" }}
             >

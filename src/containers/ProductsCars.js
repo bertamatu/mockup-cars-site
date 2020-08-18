@@ -24,7 +24,7 @@ const TopOffersText = styled.p`
   font-size: 1.2rem;
   font-weight: 900;
   text-align: left;
-  padding: 0 5rem;
+  padding: 5rem 5rem 1rem 5rem;
 `;
 const ShowAllButton = styled.button`
   background: #f55448 0% 0% no-repeat padding-box;
@@ -33,5 +33,5 @@ const ShowAllButton = styled.button`
   border-radius: 5px;
   color: white;
   cursor: pointer;
-  margin-bottom: 5vh;
+  margin-bottom: 4rem;
 `;

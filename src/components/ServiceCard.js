@@ -9,8 +9,14 @@ const ServiceCard = () => {
       {services.map((item) => {
         return (
           <ServiceCards>
-            <img src={item.icon} alt="icon" />
-            <h5 key={item.id}>{item.title}</h5>
+            <img
+              style={{ height: "3rem", paddingBottom: "1rem" }}
+              src={item.icon}
+              alt="icon"
+            />
+            <h5 style={{ marginTop: "auto" }} key={item.id}>
+              {item.title}
+            </h5>
             <p key={item.id}>{item.text}</p>
           </ServiceCards>
         );
@@ -29,6 +35,7 @@ const ServicesContainer = styled.section`
   padding: 0 5rem;
 `;
 const ServiceCards = styled.section`
+  width: 100%;
   flex-basis: 20%;
   background: white;
   padding: 2rem;
