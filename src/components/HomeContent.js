@@ -27,7 +27,7 @@ export default HomeContent;
 const HomeContentContainer = styled.section`
   background-image: url(${BckgImage});
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: row;
