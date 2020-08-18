@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import BackgroundImage from "../assets/images/backgrounds/ServicesSectionBackground.png";
-import ServicesBanner from "../banners/ServiceBanner";
+import ServicesBanner from "../components/banners/ServiceBanner";
 import ServiceCard from "../components/ServiceCard";
 
 const Services = () => {

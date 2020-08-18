@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import data from "../data.json";
+import data from "../data/data.json";
 
 const ServiceCard = () => {
   const services = data.services;
@@ -28,11 +28,12 @@ const ServiceCard = () => {
 export default ServiceCard;
 
 const ServicesContainer = styled.section`
-  width: 90vw;
+  width: 88vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 5rem;
+  margin-right: -5rem;
 `;
 const ServiceCards = styled.section`
   width: 100%;

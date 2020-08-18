@@ -1,7 +1,7 @@
 import React from "react";
-import TriangleIcon from "../assets/svg/navBarIconsContact/Triangle.svg";
-import PhoneIcon from "../assets/svg/navBarIconsContact/Phone.svg";
-import PhoneArrowIcon from "../assets/svg/navBarIconsContact/PhoneArrow.svg";
+import TriangleIcon from "../../assets/svg/navBarIconsContact/Triangle.svg";
+import PhoneIcon from "../../assets/svg/navBarIconsContact/Phone.svg";
+import PhoneArrowIcon from "../../assets/svg/navBarIconsContact/PhoneArrow.svg";
 import styled from "styled-components";
 
 const Contacts = () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import CopartLogo from "../assets/images/banners/servicesBanner/copart_logo.png";
-import IaaiLogo from "../assets/images/banners/servicesBanner/iaai_logo.png";
-import ManheimLogo from "../assets/images/banners/servicesBanner/manheim_logo.png";
+import CopartLogo from "../../assets/images/banners/servicesBanner/copart_logo.png";
+import IaaiLogo from "../../assets/images/banners/servicesBanner/iaai_logo.png";
+import ManheimLogo from "../../assets/images/banners/servicesBanner/manheim_logo.png";
 
 const ServicesBanner = () => {
   return (

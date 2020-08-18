@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import data from "../data.json";
+import data from "../data/data.json";
 
 const CarCard = () => {
   const cars = data.cars;
@@ -68,7 +68,7 @@ const CarCard = () => {
 export default CarCard;
 
 const CarsCardsContainer = styled.section`
-  width: 90vw;
+  width: 88vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

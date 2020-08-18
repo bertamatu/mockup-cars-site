@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import bannerImage from "../assets/images/banners/homeBanner/RoundImage.png";
+import bannerImage from "../../assets/images/banners/homeBanner/RoundImage.png";
 
 const HomeBanner = () => {
   return (

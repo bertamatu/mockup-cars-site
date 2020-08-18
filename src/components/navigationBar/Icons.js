@@ -1,8 +1,8 @@
 import React from "react";
-import FacebookIcon from "../assets/svg/navBarIconsSocial/Facebook.svg";
-import InstagramIcon from "../assets/svg/navBarIconsSocial/Instagram.svg";
-import TelegramIcon from "../assets/svg/navBarIconsSocial/Telegram.svg";
-import YoutubeIcon from "../assets/svg/navBarIconsSocial/Youtube.svg";
+import FacebookIcon from "../../assets/svg/navBarIconsSocial/Facebook.svg";
+import InstagramIcon from "../../assets/svg/navBarIconsSocial/Instagram.svg";
+import TelegramIcon from "../../assets/svg/navBarIconsSocial/Telegram.svg";
+import YoutubeIcon from "../../assets/svg/navBarIconsSocial/Youtube.svg";
 
 import styled from "styled-components";
 

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import NavBar from "../navigationBar/NavBar";
+import NavBar from "../components/navigationBar/NavBar";
 import HomeContent from "../components/HomeContent";
-import HomeBanner from "../banners/HomeBanner";
+import HomeBanner from "../components/banners/HomeBanner";
 
 const Home = () => {
   return (
